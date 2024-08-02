@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.input:focus {
+  opacity: 1;
+  
+}
+
+.input::placeholder {
+  color: #5f4d4d;
+}
+
+.input{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.link-item {
+  margin-left: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(24, 22, 22, 0.5);
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.4s;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.home-text {
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 50px;
+  padding-bottom: auto;
+  margin-bottom: 25px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.1;
+}
+
+.recipe-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
